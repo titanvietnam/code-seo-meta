@@ -1,0 +1,98 @@
+<head>
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	<meta name="google-site-verification" content="GlIGfQ9-EkFgTgnS0ENkSY1GVUHkLTmxFX8dtEkphpg" />
+	<meta name="msvalidate.01" content="76DAD49E095977B302ABA5C35DFC57F1" />
+	<meta name="ahrefs-site-verification" content="f09a58d7413f0291a205495a4a543d85523b7066d9e7b5a5aa040ad61e9f1139" />
+	<meta name='dmca-site-verification' content='b1l4YkNDcEkvVktjVUlBZHVlcUZqUWhlRTRmQmlqQjM3WVN0N1luUHI3TT01' />
+	<meta name="p:domain_verify" content="16a4a6f369649be5f320c10e480ed8ce"/>
+	<?php wp_head(); ?>
+	
+<?php
+if ( is_front_page() ) {
+  // Đoạn mã schema chỉ hiển thị trên trang chủ
+  echo '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Corporation", "LocalBusiness"],
+  "name": "Công Ty Cổ Phần Phát Triển Công Nghệ Titan Việt Nam",
+  "alternateName": "Titan VINA",
+  "url": "http://titanvina.com.vn/",
+  "logo": "http://titanvina.com.vn/wp-content/themes/titan/images/logo.png",
+  "image": "https://titanvina.com.vn/wp-content/uploads/2023/10/BANNER-1-2048x809.png",
+  "description": "Công ty cổ phần tự động hóa, sản xuất máy công nghiệp, chế tạo cơ khí, giải pháp tự động hóa, băng chuyền băng tải, robot cho doanh nghiệp FDI.",
+  "keywords": "băng tải công nghiệp, chế tạo máy tự động, robot AGV, gia công cơ khí, xe đẩy hàng, bàn thao tác",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Km12 - Đường Cầu Diễn, Phường Phúc Diễn, Quận Bắc Từ Liêm, Hà Nội",
+    "addressLocality": "Hà Nội",
+	"addressRegion": "HN",
+    "postalCode": "10000",
+    "addressCountry": "VN"
+  },
+  "telephone": "0975263289",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 21.045533,
+    "longitude": 105.747029
+  },
+  "priceRange": "$$$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "8:00",
+    "closes": "17:30"
+  },
+  "hasmap": "https://maps.app.goo.gl/XH5Y9M7DxF6PQ5SU6",
+  "sameAs": [
+    "https://www.facebook.com/titanvina.com.vn",
+    "https://www.youtube.com/@titanvina",
+    "https://www.tiktok.com/@titanvina.com.vn",
+    "http://titanvina.com.vn/"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Nguyễn Đình Việt",
+    "gender": "http://schema.org/Male",
+    "email": "vietnguyen@titanvina.com.vn"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "email": "vietnguyen@titanvina.com.vn",
+      "telephone": "0975 263 289",
+      "contactType": "Sales specialist",
+      "areaServed": "VN",
+      "availableLanguage": ["Vietnamese", "English"]
+    }
+  ],
+  "foundingDate": "2021-01-12",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Titan Vina Founding Location",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Km12- Đường Cầu Diễn, P.Phúc Diễn, Q.Bắc Từ Liêm, Hà Nội 10000",
+      "addressLocality": "Hà Nội",
+	  "addressRegion": "HN",
+      "postalCode": "10000",
+      "addressCountry": "VN"
+    }
+  }
+}
+</script>
+';
+}
+?>
+
+	
+	
+</head>
